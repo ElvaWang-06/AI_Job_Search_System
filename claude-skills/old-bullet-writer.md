@@ -1,5 +1,5 @@
-Resume Bullet Writer
-When to Use This Skill
+# Resume Bullet Writer #
+
 Use this skill when the user wants to:
 
 Write or improve resume bullet points
