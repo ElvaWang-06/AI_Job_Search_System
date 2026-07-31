@@ -41,7 +41,7 @@ Always prioritize overall fit and job quality over maintaining a balanced distri
 Suggested weighting when many strong-fit roles are available:
 
 * Tier 1 — approximately half of daily recommendations
-* Tier 2 — approximately one third
+* Tier 2 — approximately one-third
 * Tier 3 — the remainder
 
 Tiers express search priority, not exclusivity. A Tier 3 role with unusually strong alignment outranks a weak Tier 1 role.
@@ -186,30 +186,22 @@ The target company list sets search priority but is not an exclusive restriction
 
 ## Target Companies
 
-### A. AI and AI-enablement employers (supports Tier 1A)
+### A. AI and AI-enablement employers
+Anthropic · OpenAI · Snowflake · Figma · Microsoft · Google · Adobe · Amazon · AWS · Meta · Apple
 
-Anthropic · OpenAI · Scale AI · Databricks · Snowflake · Salesforce · ServiceNow · Workday · HubSpot · Grammarly · Notion · Figma · Atlassian · Microsoft · Google · Adobe · Amazon/AWS · Meta · Apple · Canva
+### B. Corporate L&D, enablement and design
+Fidelity · Thermo Fisher · Philips North America · Bose · Bosch · Dell EMC · State Street
 
-Search for: AI enablement, AI adoption, AI literacy, customer education, technical enablement, AI academy and internal-AI-training roles.
+### C. EdTech and learning companies
+Instructure/Canvas · Duolingo · Pearson · ETS · EF Education First
 
-### B. EdTech and learning companies (supports Tiers 1B, 1C, 2A)
-
-Instructure/Canvas · Coursera · Duolingo · Pearson · ETS · EF Education First · Khan Academy · Articulate
-
-### C. Boston-area corporate L&D, enablement and design (supports Tiers 1B, 1C, 1D)
-
-Fidelity · Wayfair · HubSpot · Thermo Fisher · Philips North America · Bose · Bosch · Dell EMC · State Street
-
-### D. Universities and colleges — cap-exempt (supports Tiers 2D, 1A, 3A)
-
+### D. Universities and colleges — cap-exempt
 Harvard · MIT · Northeastern · Boston University · Tufts · Brown · RISD · Yale
 
-### E. Museums and cultural institutions (supports Tier 3B)
-
+### E. Museums and cultural institutions
 Museum of Fine Arts Boston · ICA Boston · Harvard Art Museums · MIT Museum
 
-### F. Research, evaluation and consulting (supports Tier 3A)
-
+### F. Research, evaluation and consulting
 Analysis Group · Deloitte · Accenture · Mercer · Korn Ferry
 
 ---
@@ -221,7 +213,7 @@ Analysis Group · Deloitte · Accenture · Mercer · Korn Ferry
 1. Read the target job families and the target company list.
 2. Read `job_tracker.xlsx`.
 3. Search the official careers pages of target companies, categories A–F.
-4. Use LinkedIn Jobs for additional relevant roles.
+4. Use LinkedIn Jobs for additional roles from target job families.
 5. Run the Tier 1A keyword pass below.
 6. Apply Duplicate Checking, then Active-Status Verification, to every remaining candidate.
 
@@ -296,4 +288,4 @@ Rank by:
 
 Prioritize job quality over category balance or filling a quota.
 
-**Never lower the matching, freshness, verification or link-quality requirements to reach a fixed number of recommendations.** A short list of verified matches is the correct output; a longer list containing weak or unverified roles is a failure.
+**Never lower the matching, freshness, verification or link-quality requirements to reach a fixed number of recommendations.** A list of verified matches is the correct output; a list containing weak or unverified roles is a failure.
