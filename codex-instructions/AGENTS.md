@@ -6,11 +6,11 @@ This folder contains the user's official job-search workspace.
 
 Always read:
 
-1. job_criteria.md
+1. job-search-criteria.md
 
 before performing any search or recommendation.
 
-Never rewrite or modify job_criteria.md unless explicitly instructed.
+Never rewrite or modify job-search-criteria.md unless explicitly instructed.
 
 ---
 
@@ -22,7 +22,7 @@ Daily reports are stored in:
 
 daily_searches/
 
-Each report contains exactly 25 verified job recommendations.
+Each report contains exactly 15 verified job recommendations.
 
 The report is informational only.
 
@@ -82,8 +82,6 @@ Never fabricate jobs.
 
 Never fabricate links.
 
-Prefer official employer career pages.
-
 Avoid duplicates.
 
 Avoid recently recommended jobs when history is available.
@@ -94,4 +92,4 @@ Never contact employers.
 
 Never upload resumes.
 
-Never edit job_criteria.md unless instructed.
+Never edit job-search-criteria.md unless instructed.
