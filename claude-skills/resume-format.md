@@ -5,7 +5,7 @@ This is the layout contract. Content selection is resume-tailor's job; this skil
 Never improvise formatting. Every value below is fixed.
 
 ## File name (required — no exceptions)
-[LastName]_[Role]_[Company]_[MonthYear].docx
+[LastName]-[Role]-[Company]-[MonthDay].docx
 Company	Company name, no spaces, CamelCase if multi-word	Mercor, HarvardArtMuseums
 MonthYear	3-letter month + 2-digit year, no separator	Jul26
 
