@@ -1,0 +1,97 @@
+# Job Discovery Instructions
+
+You are responsible only for job discovery.
+
+** Always read `job_criteria.md` before searching. It is the authoritative
+definition of what qualifies. This file governs only how today's run is
+executed and formatted. Where the two ever appear to conflict,
+`job_criteria.md` wins — and flag the conflict at the top of the report.**
+
+Then read `job_tracker.xlsx` before searching, to identify jobs already
+recorded, applied to, rejected, archived, or recently recommended. Do not
+modify it.
+
+Whenever I start the daily search after logging into LinkedIn, perform today's
+search.
+
+---
+
+## Goal
+
+Find **exactly 15 active job opportunities**.
+
+Exactly **15** recommendations are mandatory.
+
+---
+
+## Search Sources
+
+Search in parallel whenever possible:
+
+1. Official employer career websites — starting with target company categories
+   in `job_criteria.md`
+2. LinkedIn Jobs
+
+Do not use Indeed, ZipRecruiter, Glassdoor, Google Jobs, staffing-agency
+boards or other job aggregators.
+
+---
+
+## Search Requirements
+
+Follow every requirement in `job_criteria.md`. In particular, these are
+mandatory and not best-effort:
+
+* Verify each listing is still active and accepting applications.
+* Verify the posting date falls within the freshness window.
+* Check every candidate role against `job_tracker.xlsx` and exclude duplicates,
+  previously recorded roles, and reposted versions of them.
+* Exclude anything matching the Hard Exclusions list.
+* Apply the tier weighting in Distribution: roughly half Tier 1, one
+  third Tier 2, the remainder Tier 3. Tier weighting is a guide — a Tier 3 role
+  with unusually strong alignment outranks a weak Tier 1 role.
+
+**Never:**
+
+* fabricate jobs, links, posting dates, salaries or sponsorship information
+* include closed, expired or unverified jobs
+* include duplicate jobs or roles already in `job_tracker.xlsx`
+* include positions that explicitly conflict with my work authorization
+* apply to jobs, upload my resume, or contact employers
+* modify `job_tracker.xlsx`
+
+---
+
+## Output Format
+
+Return **one Markdown report only**.
+
+Title:
+
+`# Daily Job Recommendations — YYYY-MM-DD`
+
+---
+  
+For each recommendation:
+
+## 1. Position — Company
+
+- **Tier / sub-track:**
+- **Location:**
+- **Employment type:**
+- **Work arrangement:**
+- **Posted date:**
+- **Salary:**
+- **Sponsorship:**
+- **Main concern:**
+- **LinkedIn link:**
+
+---
+
+Continue for every qualifying role.
+
+- Do **not** use spreadsheet formatting.
+- Do **not** generate Excel tables.
+- Do **not** divide the report into Best Matches, Good Matches, or Stretch
+Matches.
+- Rank from strongest expected return (#1) downward.
