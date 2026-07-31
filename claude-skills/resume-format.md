@@ -141,6 +141,6 @@ Then **look at `page-1.jpg`** and confirm:
 If it renders as 2 pages, go back to §6. Do not ship a 2-page file, and do not "fix"
 it by changing type.
 
-## 8. Content rule (inherited, non-negotiable)
+## Content rule (inherited, non-negotiable)
 
 `Master Resume` is the only source of truth. Select, reorder, rewrite, and optimize — but **never introduce an experience, responsibility, achievement, or metric that is not explicitly in the master.** Wording upgrades that change the strength of a claim ("supported" → "led", "assisted" → "owned") go into the DELTA section for confirmation, not silently into the document.
