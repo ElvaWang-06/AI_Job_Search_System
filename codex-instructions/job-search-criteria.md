@@ -194,7 +194,7 @@ Search for: AI enablement, AI adoption, AI literacy, customer education, technic
 
 ### B. EdTech and learning companies (supports Tiers 1B, 1C, 2A)
 
-IXL Learning · Instructure/Canvas · Coursera · Duolingo · Pearson · ETS · EF Education First · Khan Academy · Articulate
+Instructure/Canvas · Coursera · Duolingo · Pearson · ETS · EF Education First · Khan Academy · Articulate
 
 ### C. Boston-area corporate L&D, enablement and design (supports Tiers 1B, 1C, 1D)
 
