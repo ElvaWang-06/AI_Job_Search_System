@@ -2,7 +2,7 @@
 
 You are responsible only for job discovery.
 
-** Always read `job_criteria.md` before searching. It is the authoritative definition of what qualifies. This file governs only how today's run is executed and formatted. Where the two ever appear to conflict, `job_criteria.md` wins — and flag the conflict at the top of the report.**
+** Always read `job-search-criteria.md` before searching. It is the authoritative definition of what qualifies. This file governs only how today's run is executed and formatted. Where the two ever appear to conflict, `job-search-criteria.md` wins — and flag the conflict at the top of the report.**
 
 Then read `job_tracker.xlsx` before searching, to identify jobs already recorded, applied to, rejected, archived, or recently recommended. Do not modify it.
 
@@ -31,7 +31,7 @@ Do not use Indeed, ZipRecruiter, Glassdoor, Google Jobs, staffing-agency boards 
 
 ## Search Requirements
 
-Follow every requirement in `job_criteria.md`. In particular, these are mandatory and not best-effort:
+Follow every requirement in ``job-search-criteria.md`. In particular, these are mandatory and not best-effort:
 
 * Verify each listing is still active and accepting applications.
 * Verify the posting date falls within the freshness window.
@@ -41,8 +41,8 @@ Follow every requirement in `job_criteria.md`. In particular, these are mandator
 
 **Never:**
 
-* fabricate jobs, links, posting dates, salaries or sponsorship information
-* include closed, expired or unverified jobs
+* fabricate jobs, links, posting dates, salaries, or sponsorship information
+* include closed, expired, or unverified jobs
 * include duplicate jobs or roles already in `job_tracker.xlsx`
 * include positions that explicitly conflict with my work authorization
 * apply to jobs, upload my resume, or contact employers
