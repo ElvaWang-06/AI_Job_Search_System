@@ -1,43 +1,37 @@
 ---
 name: resume-format
-description: "Use this skill whenever generating Elva Wang's resume as a Word (.docx) file. Defines the exact page setup, fonts, spacing, section order, paragraph structure, and ATS rules for the approved resume template. Pairs with resume-tailor (decides WHAT content goes in) and resume-ats-optimizer (checks keyword match) — this skill decides HOW the document is laid out and rendered. Trigger on any request to 'generate resume in Word', 'make a docx resume', 'tailor my resume for [JD]', or any resume deliverable that ends up as a .docx or PDF."
+description: "Use this skill whenever generating the user's resume as a Word (.docx) file. Defines the exact page setup, fonts, spacing, section order, paragraph structure, and ATS rules for the approved resume template. Pairs with resume-toolkit — this skill decides HOW the document is laid out and rendered. Trigger on any request to 'generate resume in Word', 'make a docx resume', 'tailor my resume for [JD]', or any resume deliverable that ends up as a .docx or PDF."
 ---
 
-# Resume Format (Elva Wang — approved template)
+# Resume Format
 
-This is the **layout contract**. Content selection is `resume-tailor`'s job; this skill only
-governs how the document looks, what it's called, and whether it survives an ATS parse.
+This is the **layout contract**. Content selection is `resume-tailor`'s job; this skill only governs how the document looks, what it's called, and whether it survives an ATS parse.
 
 Never improvise formatting. Every value below is fixed.
 
 ---
 
-## 0. File name (required — no exceptions)
+## File name (required — no exceptions)
 
 ```
-Wang_[Track]_[Company]_[MonthYear].docx
+Wang_[JobTitle]_[Company]_[MonthDay].docx
 ```
 
 | Token | Rule | Example |
 |---|---|---|
-| `Track` | One of: `Eval` · `LXD` · `Data` · `Strategy` · `TA` | `Eval` |
+| `JobTitle` | Job title, no spaces, CamelCase if multi-word | `AIEnablement` |
 | `Company` | Company name, no spaces, CamelCase if multi-word | `Mercor`, `HarvardArtMuseums` |
-| `MonthYear` | **3-letter month + 2-digit year**, no separator | `Jul26` |
+| `MonthDay` | **3-letter month + 2-digit day**, no separator | `Jul26` |
 
 ✅ `Wang_Eval_Mercor_Jul26.docx`
 ✅ `Wang_LXD_HarvardArtMuseums_Aug26.docx`
-❌ `resume.docx` · `Wang_Eval_Mercor_July2026.docx` · `Wang-Eval-Mercor-Jul26.docx`
+❌ `resume.docx` · `Wang_Eval_Mercor_July.docx` · `Wang-Eval-Mercor-Jul26.docx`
 
-The same string (minus `.docx`) is what goes in the tracker's **Resume Version** column,
-so it must match exactly. Pass it as the argument to `build_resume.js`; the script
-rejects anything that doesn't match the pattern.
-
-Track selection: pick the one matching the JD's primary function, not Elva's degree.
-An assessment/measurement/analytics role is `Eval`; a pure data-science role is `Data`.
+The same string (minus `.docx`) is what goes in the tracker's **Resume Version** column, so it must match exactly. Pass it as the argument to `build_resume.js`; the script rejects anything that doesn't match the pattern.
 
 ---
 
-## 1. Page setup
+## Page setup
 
 | Property | Value | DXA (twips) |
 |---|---|---|
@@ -50,19 +44,15 @@ An assessment/measurement/analytics role is `Eval`; a pure data-science role is 
 
 ⚠️ Set page size explicitly in docx-js — never rely on the default.
 
-## 2. Typography
+## Typography
 
 - **Font: Times New Roman.** One font for the entire document, including headers.
-- **Size: 10pt (`size: 20` half-points) for EVERY run — including the name.**
-  The name is bold, not enlarged.
-- **Never change the type to make content fit.** No 9pt, no condensed line spacing,
-  no shaved margins. Fit by cutting content (see §6).
+- **Size: 10pt (`size: 20` half-points) for EVERY run — including the name.** The name is bold, not enlarged.
+- **Never change the type to make content fit.** No 9pt, no condensed line spacing, no shaved margins. Fit by cutting content (see §6).
 - Color: black. Hyperlinks: default Word hyperlink style.
-- **Inline bold inside bullets** highlights metrics and lead actions
-  (`**needs assessment with 20+ stakeholders**`, `**65%**`). Keep this — it's the
-  signature of the template — but bold no more than ~1/3 of any bullet.
+- **Inline bold inside bullets** highlights metrics and lead actions (`**needs assessment with 20+ stakeholders**`, `**65%**`). Keep this — it's the signature of the template — but bold no more than ~1/3 of any bullet.
 
-## 3. Section order
+## Section order
 
 1. Name + contact line
 2. **Education**
@@ -70,14 +60,11 @@ An assessment/measurement/analytics role is `Eval`; a pure data-science role is 
 4. **Work Experience**
 5. **Project Experience**
 
-No Summary / Objective paragraph unless explicitly requested. Skills sit high
-(right after Education), not at the bottom.
+No Summary / Objective paragraph unless explicitly requested. Skills sit high (right after Education), not at the bottom.
 
-Section *names* may be adapted to the target role (e.g. "Work Experience" →
-"Evaluation & Measurement Experience") but keep them ATS-standard (§5) and keep the
-*order* — education, skills, work, projects.
+Section *names* may be adapted to the target role (e.g. "Work Experience" → "Evaluation & Measurement Experience") but keep them ATS-standard (§5) and keep the *order* — education, skills, work, projects.
 
-## 4. Paragraph specs
+## Paragraph specs
 
 | Element | Spec |
 |---|---|
@@ -90,9 +77,7 @@ Section *names* may be adapted to the target role (e.g. "Work Experience" →
 | **Bullet** | `•` via numbering · indent `left: 720, hanging: 360` · 10pt · single spacing · 3–4 per entry (5 max) |
 | **Skill line** | Same bullet indents · `**Category:** item, item, item` · 3–5 category lines total |
 
-⚠️ **No blank line after a section header.** The header's bottom border already separates the
-section; an extra 6pt gap on the first entry makes the header float. In `build_resume.js` this is
-the `first` flag on `org()`:
+⚠️ **No blank line after a section header.** The header's bottom border already separates the section; an extra 6pt gap on the first entry makes the header float. In `build_resume.js` this is the `first` flag on `org()`:
 
 ```js
 org("**Harvard University**, Cambridge, MA", "Aug 2025 – May 2026", true)  // first in section → before: 0
@@ -102,24 +87,19 @@ org("**Tufts University**, Medford, MA",     "Sept 2020 – May 2025")       // 
 The same applies to the first **Skill line** under `Technical Skills` — it is a bullet, which has
 no `spacing before`, so it is already flush. Do not add one.
 
-## 5. ATS rules (hard constraints)
+## ATS rules (hard constraints)
 
 The layout above is already ATS-safe. Do not break it:
 
-- **Single column.** No tables, text boxes, columns, sidebars, graphics, icons, or
-  skill bars — parsers drop or scramble them.
-- **Contact info in the document body, never in a Word header/footer** — many parsers
-  never read the header.
-- **Standard section names.** `Education`, `Technical Skills`, `Work Experience`,
-  `Project Experience` — never "My Journey", "What I Bring", "Academic Pursuits".
+- **Single column.** No tables, text boxes, columns, sidebars, graphics, icons, or skill bars — parsers drop or scramble them.
+- **Contact info in the document body, never in a Word header/footer** — many parsers never read the header.
+- **Standard section names.** `Education`, `Technical Skills`, `Work Experience`, `Project Experience` — never "My Journey", "What I Bring", "Academic Pursuits".
 - **One font, one size** throughout. Mixed sizes are a common ATS flag.
 - **Standard bullet char** (`•`). No `→`, `▪`, emoji, or wingdings.
-- **Exact JD terminology.** If the JD says "Python, SQL, item response theory", use
-  those exact strings — not "programming" or "psychometric modeling". No keyword
-  stuffing (the same term in six variants).
+- **Exact JD terminology.** If the JD says "Python, SQL, item response theory", use those exact strings — not "programming" or "psychometric modeling". No keyword stuffing (the same term in six variants).
 - **Dates as `Mon YYYY – Mon YYYY`**, consistently.
 
-## 6. One page — how to fit
+## One page — how to fit
 
 The resume must be **exactly one page**.
 
@@ -132,11 +112,9 @@ The resume must be **exactly one page**.
 4. Collapse a Technical Skills category into another
 5. Shorten bullet prose — trailing "by doing X" clauses go first
 
-## 7. Build & verify
+##  Build & verify
 
-Use `scripts/build_resume.js` (docx-js). It encodes every value above as helpers —
-`section()`, `org()`, `role()`, `bullet()`, `skill()` — so a new resume is just a
-content list. `docx` is preinstalled; do not run `npm install`.
+Use `scripts/build_resume.js` (docx-js). It encodes every value above as helpers — `section()`, `org()`, `role()`, `bullet()`, `skill()` — so a new resume is just a content list. `docx` is preinstalled; do not run `npm install`.
 
 **Pre-flight checklist — run every time before delivering:**
 
@@ -165,8 +143,4 @@ it by changing type.
 
 ## 8. Content rule (inherited, non-negotiable)
 
-`Master_Resume.docx` is the only source of truth. Select, reorder, rewrite, and
-optimize — but **never introduce an experience, responsibility, achievement, or metric
-that is not explicitly in the master.** Wording upgrades that change the strength of a
-claim ("supported" → "led", "assisted" → "owned") go into the DELTA section for
-confirmation, not silently into the document.
+`Master Resume` is the only source of truth. Select, reorder, rewrite, and optimize — but **never introduce an experience, responsibility, achievement, or metric that is not explicitly in the master.** Wording upgrades that change the strength of a claim ("supported" → "led", "assisted" → "owned") go into the DELTA section for confirmation, not silently into the document.
