@@ -31,7 +31,7 @@ Do not use Indeed, ZipRecruiter, Glassdoor, Google Jobs, staffing-agency boards 
 
 ## Search Requirements
 
-Follow every requirement in ``job-search-criteria.md`. In particular, these are mandatory and not best-effort:
+Follow every requirement in `job-search-criteria.md`. In particular, these are mandatory and not best-effort:
 
 * Verify each listing is still active and accepting applications.
 * Verify the posting date falls within the freshness window.
@@ -64,7 +64,7 @@ For each recommendation:
 
 ## 1. Position — Company
 
-- **Tier / sub-track:**
+- **Tier:**
 - **Location:**
 - **Employment type:**
 - **Work arrangement:**
