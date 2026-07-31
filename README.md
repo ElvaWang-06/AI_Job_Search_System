@@ -31,11 +31,8 @@ This project turns those repetitive tasks into an AI-assisted workflow so that t
                 └──────────────┬────────────────┘
                                │
                                ▼
-                    Daily Job Discovery
+                    Daily Job Discovery on LinkedIn
                          (Codex)
-                               │
-                 Official Career Pages
-                    + LinkedIn Jobs
                                │
                                ▼
                   Curated Job Recommendations
@@ -45,14 +42,9 @@ This project turns those repetitive tasks into an AI-assisted workflow so that t
                                │
                                ▼
                  Resume Tailoring (Claude)
-                               │
-                 Word Resume + Delta Report
-                               │
+                               │                               │
                                ▼
               Application Tracking (Email API)
-                               │
-                               ▼
-               Interview Preparation (ChatGPT)
 ```
 
 ---
@@ -101,25 +93,9 @@ Responsibilities:
 
 ---
 
-## 4. Interview Preparation
-
-Responsible AI:
-- ChatGPT
-
-Responsibilities:
-
-- Resume optimization
-- Portfolio review
-- Behavioral interview preparation
-- Technical interview preparation
-- Company research
-- Learning Design consultation
-
----
 
 # Repository Structure
 
-```text
 AI-Career-Operating-System/
 
 README.md
@@ -134,14 +110,12 @@ prompts/
 
 skills/
     Claude/
-    Codex/
 
 tracker/
     job_tracker.xlsx
 
 templates/
-    Master_Resume.docx
-    Resume_Template.docx
+    Master_Resume_Template.docx
 
 docs/
     workflow.md
@@ -151,20 +125,6 @@ examples/
     sample-job-report.md
     sample-resume.md
 ```
-
----
-
-# Workflow
-
-Daily workflow:
-
-1. Run job discovery
-2. Review recommended positions
-3. Select target jobs
-4. Generate tailored resumes
-5. Submit applications
-6. Update tracker
-7. Prepare interviews when invitations arrive
 
 ---
 
@@ -187,6 +147,7 @@ Daily workflow:
 - Codex
 - GitHub
 - LinkedIn
+- Microsoft Excel
 - Microsoft Word
 - Markdown
 - Email Connector
@@ -200,7 +161,6 @@ Daily workflow:
 - Resume customization
 - Job matching workflow
 - Application tracking
-- Interview preparation
 - Prompt engineering
 - Claude Skills
 - Modular architecture
@@ -213,7 +173,6 @@ Daily workflow:
 - [ ] ATS compatibility scoring
 - [ ] Cover letter generation
 - [ ] Portfolio optimization
-- [ ] Interview analytics dashboard
 - [ ] AI career strategy planner
 - [ ] Multi-agent orchestration
 
