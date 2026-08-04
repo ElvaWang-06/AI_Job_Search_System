@@ -4,31 +4,31 @@
 
 ### Tier 1
 
-**1A** — AI Learning Specialist · AI Curriculum Specialist · AI Curriculum Developer · AI Enablement Specialist · AI Adoption Specialist · AI Training Specialist · AI Education Specialist · AI Literacy Program Coordinator · AI Program Coordinator · Generative AI Enablement Associate · AI Readiness Coordinator · Digital Adoption Specialist · Responsible AI Program Coordinator · AI Learning Content Developer
+**1A** — 
 
-**1B** — Instructional Designer · Learning Designer · Learning Experience Designer · Curriculum Developer · Curriculum Designer · Digital Learning Specialist · Learning Program Specialist · Training and Development Specialist · Learning and Development Specialist · eLearning Developer · Curriculum Alignment Specialist · L&D Coordinator · Training Specialist · Enablement Specialist · Instructional Technologist · Educational Technologist · Online Learning Designer · Content Developer · Curriculum Writer · Assessment Developer
+**1B** — 
 
-**1C** — Customer Education Specialist · Product Education Specialist · Customer Enablement Specialist · Customer Training Specialist · Education Services Specialist · Technical Enablement Specialist · Academy Program Coordinator · Certification Program Coordinator · User Education Specialist
+**1C** — 
 
-**1D** — UX Designer · UX/UI Designer · Product Designer · Interaction Designer · Experience Designer · Design Researcher · Associate Product Designer · Digital Experience Designer · Service Designer · Human Factors Designer
+**1D** — 
 
 ### Tier 2
 
-**2A** — Learning Analytics Analyst · Education Data Analyst · Product Analyst (EdTech) · Insights Analyst (education) · Research Analyst
+**2A** — 
 
-**2B** — Program Coordinator · Program Operations Coordinator · Events and Engagement Specialist · Community Engagement Coordinator · Partnerships Coordinator · Workforce Development Coordinator · Employer Engagement Coordinator · Education Partnerships Coordinator · Member Engagement Coordinator · Learning Programs Coordinator
+**2B** — 
 
-**2C** — Campus Recruiter · University Recruiter · Early Career Recruiter · Early Talent Coordinator · Recruiting Coordinator · Talent Acquisition Coordinator · Early-Career Programs Coordinator · University Relations Coordinator · Talent Operations Coordinator
+**2C** — 
 
-**2D** — Academic Program Administrator · Academic Program Coordinator · Program Administrator · Executive Education Coordinator · Career Education Coordinator · Employer Relations Coordinator · Faculty Development Coordinator · Continuing Education Coordinator · Academic Services Coordinator
+**2D** — 
 
 ### Tier 3
 
-**3A** — Research and Evaluation Coordinator · Program Evaluation Assistant · Evaluation Analyst · Research Associate · Research Coordinator · Mixed-Methods Research Associate · Learner Researcher · UX Research Coordinator · Junior UX Researcher · Institutional Research Analyst · Impact Measurement Coordinator
+**3A** — 
 
-**3B** — Museum Education Coordinator · Public Programs Coordinator · Visitor Experience Coordinator · Gallery Programs Coordinator · Interpretation Specialist · School and Teacher Programs Coordinator
+**3B** — 
 
-**3C** — People Analytics Analyst · Workforce Analytics Coordinator · Program Analyst
+**3C** — 
 
 ---
 
@@ -52,9 +52,7 @@ Tiers express search priority, not exclusivity. A Tier 3 role with unusually str
 
 **Preferred:**
 
-* On-site or hybrid positions within approximately 100 miles of Boston
-* Boston-area part-time positions
-* Other U.S. locations when the role meets the applicable compensation requirement
+
 
 **Exclude:**
 
@@ -134,15 +132,9 @@ For contract or temporary roles:
 
 **Preferred ranges:**
 
-* Within approximately 100 miles of Boston (on-site or hybrid): $50,000–$180,000
-* U.S. remote (no relocation required): at least $45,000
-* Other U.S. locations requiring relocation: at least $80,000
-
-Remote roles are governed solely by the remote threshold. The $80,000 floor applies only where physical relocation is required.
 
 **Additional conditions:**
 
-* Boston-area part-time positions are acceptable.
 * Apply the relevant location threshold to contract and temporary roles when compensation is stated.
 * When salary is missing, label it: "Salary not stated—verify."
 * Never estimate or infer compensation that is not included in the listing.
@@ -186,23 +178,17 @@ The target company list sets search priority but is not an exclusive restriction
 
 ## Target Companies
 
-### A. AI and AI-enablement employers
-Anthropic · OpenAI · Snowflake · Figma · Microsoft · Google · Adobe · Amazon · AWS · Meta · Apple
+### A. 
 
-### B. Corporate L&D, enablement and design
-Fidelity · Thermo Fisher · Philips North America · Bose · Bosch · Dell EMC · State Street
+### B. 
 
-### C. EdTech and learning companies
-Instructure/Canvas · Duolingo · Pearson · ETS · EF Education First
+### C. 
 
-### D. Universities and colleges — cap-exempt
-Harvard · MIT · Northeastern · Boston University · Tufts · Brown · RISD · Yale
+### D. 
 
-### E. Museums and cultural institutions
-Museum of Fine Arts Boston · ICA Boston · Harvard Art Museums · MIT Museum
+### E. 
 
-### F. Research, evaluation and consulting
-Analysis Group · Deloitte · Accenture · Mercer · Korn Ferry
+### F. 
 
 ---
 
@@ -214,18 +200,8 @@ Analysis Group · Deloitte · Accenture · Mercer · Korn Ferry
 2. Read `job_tracker.xlsx`.
 3. Search the official careers pages of target companies, categories A–F.
 4. Use LinkedIn Jobs for additional roles from target job families.
-5. Run the Tier 1A keyword pass below.
 6. Apply Duplicate Checking, then Active-Status Verification, to every remaining candidate.
 
-### Keyword-Based Discovery for Tier 1A
-
-AI-enablement job titles are not yet standardized. Many roles carrying substantial AI-education responsibility are posted under conventional titles such as Learning and Development Specialist, Instructional Designer, Program Manager or Customer Education Specialist.
-
-In addition to searching Tier 1A titles directly, scan the descriptions of Tier 1B and 1C results for:
-
-generative AI · AI literacy · AI adoption · AI enablement · AI fluency · AI upskilling · responsible AI · AI readiness · prompt training · AI academy · AI transformation · internal AI training
-
-Treat a conventional title with substantial AI-education content as a Tier 1A role.
 
 ### Link Requirements
 
