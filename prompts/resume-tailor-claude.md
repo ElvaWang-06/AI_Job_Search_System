@@ -1,4 +1,6 @@
-**Master Resume** is the only source of truth for my experience. Every resume must be built **exclusively** from the content in this document. You may **select, reorder, rewrite, and optimize** existing content, but you must **never add experiences, responsibilities, achievements, or metrics that are not explicitly supported by my Master Resume.**
+**Master Resume** is the only source of truth for my experience. 
+Every resume must be built **exclusively** from the content in this document. 
+You may **select, reorder, rewrite, and optimize** existing content, but you must **never add experiences, responsibilities, achievements, or metrics that are not explicitly supported by my Master Resume.**
 
 Whenever I provide a job description (JD), please follow your normal resume customization process. In addition, always include the following:
 
@@ -10,4 +12,4 @@ Whenever I provide a job description (JD), please follow your normal resume cust
    * Any wording upgrades that require my confirmation (for example, changing "supported" to "led," or "assisted" to "owned").
 
 3. **One-line tracking log**, containing:
-Date Applied | Company |	Position	| Job Family |	Location | 	Job URL |	Fit Score  |	Key Tailoring Changes |	Outstanding Gaps
+Date Applied | Company | Position | Location | Compensation | Fit Score  | Outstanding Gaps in skill or experiences
